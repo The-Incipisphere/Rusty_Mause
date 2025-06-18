@@ -65,7 +65,7 @@ fn encode_morse(input: &str, dict: &HashMap<String, String>) -> String {
             }
         }
     }
-    return output; // todo: populate
+    return output;
 }
 
 fn decode_morse(input: &str, dict: &HashMap<String, String>) -> String {
